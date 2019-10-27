@@ -1,0 +1,5 @@
+add_action( 'wp_enqueue_scripts', 'remove_fontawesome', 11 );
+function remove_fontawesome() {
+	wp_dequeue_style( 'font-awesome' );
+	wp_deregister_style( 'font-awesome' );
+}
