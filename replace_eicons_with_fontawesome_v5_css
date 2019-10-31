@@ -1,0 +1,17 @@
+/*
+ * Replace Eicons with FontAwesome v5
+ */
+
+.eicon-menu-bar:before, .elementor-menu-toggle i:before {
+    content: "\f0c9";    
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+}
+
+.elementor-search-form__submit .fa-search:before, .eicon-search:before{
+	content: "\F002";
+        font-family: "Font Awesome 5 Free";
+	font-style: normal;
+        font-weight: 900;
+} 
