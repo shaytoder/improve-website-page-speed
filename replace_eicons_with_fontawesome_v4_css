@@ -1,0 +1,23 @@
+/*
+ * Replace Eicons with FontAwesome v4
+ */
+.eicon {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.elementor-menu-toggle i:before {
+    content: "\f0c9";
+}
+
+.elementor-menu-toggle.elementor-active i:before {
+    content: "\f00d";
+}
+
+.elementor-search-form__submit .fa-search:before{
+	content: "\E801";
+}
