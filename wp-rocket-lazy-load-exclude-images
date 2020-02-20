@@ -1,0 +1,8 @@
+function rocket_lazyload_exclude_src( $src ) {
+	$src[] = 'image_1';
+	$src[] = 'image_2';
+	$src[] = 'image_3';
+	$src[] = 'image_4';
+	return $src;
+}
+add_filter( 'rocket_lazyload_excluded_src', 'rocket_lazyload_exclude_src' );
