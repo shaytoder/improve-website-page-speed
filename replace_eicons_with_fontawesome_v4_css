@@ -21,3 +21,9 @@
 .elementor-search-form__submit .fa-search:before{
 	content: "\E801";
 }
+
+.elementor-menu-toggle:active,
+.elementor-menu-toggle:focus {
+    outline: none;
+    box-shadow: none;
+}
