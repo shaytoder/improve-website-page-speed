@@ -9,6 +9,12 @@
     font-weight: 900;
 }
 
+.elementor-menu-toggle.elementor-active i:before {
+     content: "\f00d";
+     font-family: 'Font Awesome\ 5 Free';
+     font-weight:900;
+}
+
 .elementor-search-form__submit .fa-search:before, .eicon-search:before{
 	content: "\F002";
         font-family: "Font Awesome 5 Free";
