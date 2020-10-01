@@ -1,0 +1,52 @@
+<style>
+
+.elementor-nav-menu--indicator-classic .elementor-nav-menu .sub-arrow i:before {
+    content: '\e805';
+    font-family: 'stcourse';
+}
+
+.fa-search:before {
+    content: '\e804'!important;
+    font-family: 'stcourse';
+}
+
+.fa-linkedin:before {
+    content: '\f0e1'!important;
+    font-family: 'stcourse';
+}
+
+.fa-twitter:before {
+    content: '\f099';
+    font-family: 'stcourse';
+}
+
+.fa-facebook:before {
+    content: '\f09a';
+    font-family: 'stcourse';
+}
+
+.eicon-chevron-left:before {
+    content: '\e807';
+    font-family: 'stcourse';
+}
+
+.eicon-chevron-right:before {
+    content: '\e808';
+    font-family: 'stcourse';
+}
+
+.eicon-menu-bar:before {
+    content: '\f0c9';
+    font-family: 'stcourse';
+}
+
+.elementor-menu-toggle.elementor-active i:before {
+    content: '\e801';
+    font-family: 'stcourse';
+}
+
+i {
+    font-style: normal;
+}
+
+</style>
