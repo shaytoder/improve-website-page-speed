@@ -1,28 +1,28 @@
 
 <IfModule mod_expires.c>
-  AddType application/x-font-woff 	  .woff
-  AddType application/font-woff   	  .woff
-  AddType image/svg+xml 	   	   	  .svg
+  AddType application/x-font-woff     .woff
+  AddType application/font-woff       .woff
+  AddType image/svg+xml               .svg
   AddType application/x-font-opentype .otf
-  AddType text/javascript 	   	   	  .js  
+  AddType text/javascript             .js  
 
   ExpiresActive on
-  ExpiresDefault 	   	   	   	   	   	   	  "access plus 1 year"
-  ExpiresByType application/font-woff 	   	  "access plus 1 year"
-  ExpiresByType application/x-font-woff 	  "access plus 1 year"
-  ExpiresByType font/woff 	   	   	   	   	  "access plus 1 year"
-  ExpiresByType image/svg+xml 	   	   	   	  "access plus 1 year"
-  ExpiresByType text/javascript 	   	   	  "access plus 1 year"
-  ExpiresByType application/x-javascript 	  "access plus 1 year"
-  ExpiresByType application/javascript 	   	  "access plus 1 year"
-  ExpiresByType image/gif 	   	   	   	   	  "access plus 1 year"
-  ExpiresByType image/png 	   	   	   	   	  "access plus 1 year"
-  ExpiresByType image/jpg 	   	   	   	   	  "access plus 1 year"
-  ExpiresByType image/jpeg 	   	   	   	   	  "access plus 1 year"
-  ExpiresByType image/svg+xml 	   	   	   	  "access plus 1 year"
-  ExpiresByType image/x-icon 	   	   	   	  "access plus 1 year"
-  ExpiresByType image/ico 	   	   	   	   	  "access plus 1 year"
-  ExpiresByType text/css 	   	   	   	   	  "access plus 1 year"
-  ExpiresByType application/x-font-opentype   "access plus 1 year"
+  ExpiresDefault                            "access plus 1 year"
+  ExpiresByType application/font-woff       "access plus 1 year"
+  ExpiresByType application/x-font-woff     "access plus 1 year"
+  ExpiresByType font/woff                   "access plus 1 year"
+  ExpiresByType image/svg+xml               "access plus 1 year"
+  ExpiresByType text/javascript             "access plus 1 year"
+  ExpiresByType application/x-javascript    "access plus 1 year"
+  ExpiresByType application/javascript      "access plus 1 year"
+  ExpiresByType image/gif                   "access plus 1 year"
+  ExpiresByType image/png                   "access plus 1 year"
+  ExpiresByType image/jpg                   "access plus 1 year"
+  ExpiresByType image/jpeg                  "access plus 1 year"
+  ExpiresByType image/svg+xml               "access plus 1 year"
+  ExpiresByType image/x-icon                "access plus 1 year"
+  ExpiresByType image/ico                   "access plus 1 year"
+  ExpiresByType text/css                    "access plus 1 year"
+  ExpiresByType application/x-font-opentype "access plus 1 year"
 </IfModule>
 
