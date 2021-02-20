@@ -1,4 +1,4 @@
-
+# serve-static-assets-with-an-efficient-cache-policy
 <IfModule mod_expires.c>
   AddType application/x-font-woff     .woff
   AddType application/font-woff       .woff
