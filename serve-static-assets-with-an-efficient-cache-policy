@@ -1,10 +1,14 @@
 # serve-static-assets-with-an-efficient-cache-policy
 <IfModule mod_expires.c>
-  AddType application/x-font-woff     .woff
   AddType application/font-woff       .woff
+  AddType application/font-woff2      .woff2
   AddType image/svg+xml               .svg
   AddType application/x-font-opentype .otf
-  AddType text/javascript             .js  
+  AddType text/javascript             .js3  
+  AddType text/css                    .css
+  AddType application/javascript      .js2
+  AddType application/x-javascript    .js
+  AddType image/jpeg                  .jpg .jpeg .jpe
 
   ExpiresActive on
   ExpiresDefault                            "access plus 1 year"
