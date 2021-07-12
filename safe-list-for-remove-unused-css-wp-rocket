@@ -119,6 +119,8 @@ strong
 .elementor-toc--collapsed
 .is_stuck
 .onclickhidden
+.e-gallery--rtl
+.e-gallery-justified
 
 ###################
 #  **  RUCSS Safelist Pack End
