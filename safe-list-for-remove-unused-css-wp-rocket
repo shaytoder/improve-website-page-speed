@@ -121,6 +121,7 @@ strong
 .onclickhidden
 .e-gallery--rtl
 .e-gallery-justified
+#elementor-popup-modal-(.*)
 
 ###################
 #  **  RUCSS Safelist Pack End
