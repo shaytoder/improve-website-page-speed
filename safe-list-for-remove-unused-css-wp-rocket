@@ -122,6 +122,13 @@ strong
 .e-gallery--rtl
 .e-gallery-justified
 #elementor-popup-modal-(.*)
+.mega-indicator
+.mega-indicator:after
+.mega-menu-item-has-children
+.mega-menu-link
+.jet-listing-grid__slider-icon
+.next-arrow
+.prev-arrow
 
 ###################
 #  **  RUCSS Safelist Pack End
