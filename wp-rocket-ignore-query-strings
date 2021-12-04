@@ -62,7 +62,7 @@ register_activation_hook( __FILE__, __NAMESPACE__ . '\flush_wp_rocket' );
 function deactivate() {
 
 	// Remove all functionality added above.
-	remove_filter( 'rocket_cache_ignored_parameters', __NAMESPACE__ . '\define_ignored_parameters' );
+	remove_filter( 'rocket_cache_ignored_parameters', __NAMESPACE__ . '\define_ignored_parameters', 11 );
 
 	// Flush .htaccess rules, and regenerate WP Rocket config file.
 	flush_wp_rocket();
